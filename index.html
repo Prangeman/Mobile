@@ -1,49 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb-NO">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player</title>
+    <title>Vår Kafé</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">Vår Kafé</div>
+            <ul class="menu">
+                <li><a href="#home">Hjem</a></li>
+                <li><a href="#menu">Meny</a></li>
+                <li><a href="#about">Om Oss</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section id="container">
-    <div id="audioplayer">
-        <div id="song-title">Song Title</div>
-        <div id="artist">Artist</div>
-        <div id="info">General Info</div>
+    <section id="home">
+        <h1>Velkommen til Vår Kafé</h1>
+        <p>Oppdag våre deilige kaffe- og bakverktilbud.</p>
+    </section>
 
-        <div class="player-controls">
-            <button id="skip-prev" class="control-btn">&#10094;</button>
-            <button id="play" class="control-btn">▶</button>
-            <button id="skip-next" class="control-btn">&#10095;</button>
-        </div>
-   
-        <input type="range" id="volume" min="0" max="100" step="0.01" value="1">
-        
-        
-
-        <audio id="audio" src="sang.mp3" preload="auto"></audio>
-    </div>
-
-    <section id="liste">
-        <div id="song-list">
-            <h2>Newest Songs</h2>
-            <ul id="newest-songs"></ul>
-        </div>
-
-        <div id="archive-section">
-            <button id="toggle-archive">Show Archive</button>
-            <div id="archive" style="display: none;">
-                <h2>Archive</h2>
-                <ul id="archive-songs"></ul>
+    <section id="menu">
+        <h2>Vår Meny</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <p>En klassisk italiensk kaffe med melkeskum.</p>
+                <p>Pris: 45 NOK</p>
+            </div>
+            <div class="menu-item">
+                <h3>Latte</h3>
+                <p>En myk og kremet kaffe med steamet melk.</p>
+                <p>Pris: 50 NOK</p>
+            </div>
+            <div class="menu-item">
+                <h3>Brownie</h3>
+                <p>En rik og sjokoladefylt kakebit.</p>
+                <p>Pris: 30 NOK</p>
+            </div>
+            <div class="menu-item">
+                <h3>Ostekake</h3>
+                <p>En deilig ostekake med bærsaus.</p>
+                <p>Pris: 60 NOK</p>
             </div>
         </div>
     </section>
-</section>
 
-<script src="app.js" type="module"></script>
+    <section id="about">
+        <h2>Om Oss</h2>
+        <p>Vi er en lokal kafé som tilbyr et bredt utvalg av kaffe og bakverk, laget med kjærlighet og omtanke.</p>
+    </section>
 
+    <section id="contact">
+        <h2>Kontakt Oss</h2>
+        <p>Adresse: Eksempelgate 123, Trondheim</p>
+        <p>Telefon: 123 45 678</p>
+        <p>E-post: kontakt@varkafe.no</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vår Kafé</p>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
