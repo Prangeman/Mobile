@@ -10,8 +10,17 @@ const newestSongsList = document.querySelector('#newest-songs');
 const archiveList = document.querySelector('#archive-songs');
 const archive = document.querySelector('#archive');
 const toggleArchiveButton = document.querySelector('#toggle-archive');
+const container = document.querySelector('.container');
 
 let issongplaying = false;
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    console.log("Mobile device detected");
+    container.style.height = "100%";
+}
+else {
+    console.log('Not a mobile device');
+}
 
 const trackList = [
     { title: "sang1", src: "sang.mp3" },
