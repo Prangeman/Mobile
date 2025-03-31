@@ -16,7 +16,7 @@ let issongplaying = false;
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
     console.log("Mobile device detected");
-    container.style.height = "100%";
+    container.style.height = "100vh";
 }
 else {
     console.log('Not a mobile device');
