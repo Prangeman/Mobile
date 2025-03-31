@@ -1,0 +1,32 @@
+[
+    {
+        "path": "sang.mp3",
+        "title": "Det liv jag elskär!",
+        "artist": "Projekt Oi!",
+        "info": "Some general info about song 1."
+    },
+    {
+        "path": "song2.mp3",
+        "title": "Freezing moon",
+        "artist": "Mayhem",
+        "info": "Some general info about song 2."
+    },
+    {
+        "path": "song3.mp3",
+        "title": "Fields of verdun",
+        "artist": "Sabaton",
+        "info": "Some general info about song 3."
+    },
+    {
+        "path": "song4.mp3",
+        "title": "Esoteric bloodine",
+        "artist": "Nazgor",
+        "info": "Some general info about song 4."
+    },
+    {
+        "path": "song5.mp3",
+        "title": "Devil in a midnigt mass",
+        "artist": "Billy talent",
+        "info": "Some general info about song 5."
+    }
+]
